@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">입출고 및 장부관리</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_revenue_list">Revenue_listActivity</string>
+    <string name="title_activity_revenue_daily">Revenue_daily</string>
+    <string name="title_activity_revenue_monthly">Revenue_monthly</string>
+    <string name="title_activity_revenue_item">Revenue_item</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_main">activity_main</string>
+    <string name="title_activity_purchaseitemlist">Purchaseitemlist</string>
+    <string name="title_activity_purchaseitemnew">Purchaseitemnew</string>
+    <string name="title_activity_purchaseitemrevise">Purchaseitemrevise</string>
+    <string name="title_activity_purchaseitemdelete">Purchaseitemdelete</string>
+    <string name="title_activity_sales_new">Sales_new</string>
+
+</resources>

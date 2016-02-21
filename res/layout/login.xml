@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right"
+        android:onClick="onButton1Clicked"
+        android:text="개발자에게 문의하기(tel)"
+        android:textSize="10dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="23dp"
+        android:maxLength="13"
+        android:singleLine="true"
+        android:text="id" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:maxLength="13"
+        android:numeric="integer"
+        android:password="true"
+        android:singleLine="true"
+        android:text="10" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2"
+        android:onClick="onButton2Clicked"
+        android:text="login" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="23dp"
+        android:hint="새 id를 입력하세요"
+        android:maxLength="13"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3"
+        android:hint="새 password를 입력하세요"
+        android:maxLength="13"
+        android:numeric="integer"
+        android:password="true"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText4"
+        android:onClick="onButton3Clicked"
+        android:text="회원가입" />
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="18dp"
+    android:text="서울시립대학교 전자전기컴퓨터공학부   김진혁, 주현태"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textSize="9dp"
+    android:textStyle="italic"
+    android:typeface="serif" />
+
+</RelativeLayout>
